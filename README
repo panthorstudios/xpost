@@ -1,0 +1,15 @@
+This version of XPOST is configured to run on a Sun4.  If you would like to
+compile it on another machine, make sure that Athena widgets are available.
+
+The user's manual is compressed because it is a Postscript file.  To obtain a
+copy, uncompress the file (it is about 600-700K) and print it to a 
+Postscript printer.
+
+Be sure to copy the icons/ directory and keep it in the xpost/ directory as it
+is here.  Otherwise, compilation errors may result.  Also, be sure the paths of
+objects in your animations are correct (better yet, use absolute paths with no
+~) or else they will not be loaded by XPOST (and that makes it pretty hard to 
+see what you're doing).
+
+                    Patrick Joiner
+                        4/27/91
